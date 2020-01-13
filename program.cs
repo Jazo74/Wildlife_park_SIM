@@ -1,4 +1,4 @@
-namespace codecool.miskolc.zoltan_jarmy.wildlife_park.core
+namespace codecool.miskolc.zoltan_jarmy.sanctuary.core
 {
     public void class Main(string[] args)
     {

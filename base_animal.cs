@@ -1,19 +1,17 @@
-namespace codecool.miskolc.zoltan_jarmy.wildlife_park.core
+namespace codecool.miskolc.zoltan_jarmy.sanctuary.core
 {
     abstract class Animal
     {
-
-        int ReqHeatUnit {get; set;}
-        int ReqLightUnit {get; set;}
-        int ReqEnergyUnit {get; set;}
-        int ReqFoodUnit {get; set;}
-        int ReqOxigenUnit {get; set;}
-
-        abstract String ReqEnvironment { get; set; }
-        abstract int ReqMinTemperature { get; set; }
-        abstract int ReqMaxTemperature { get; set; }
-        abstract int ReqWind { get; set; }
-        abstract String Food { get; set; } 
+        // Base Properties
+        string Type { get; set} //carnivore, herbivore, omnivore
+        int ReqSpace { get; set; }
+        int ReqHeatUnit { get; set; }
+        int ReqOxigenUnit { get; set; }
+        int ReqFoodUnit { get; set; }
+        int ReqWaterUnit { get; set; }
+        abstract String IdealEnvironment { get; set; }
+        abstract String IdealFoodType { get; set; } 
+        // Base Methods
         abstract String Living();
         abstract String Eating();
     }

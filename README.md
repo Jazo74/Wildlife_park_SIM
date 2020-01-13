@@ -1,4 +1,4 @@
-# Spaceship Noah's Ark / Wildlife_park_SIM
+# Noah's Ark at Moon / Sanctuary_SIM
 This program is a wildlife park simulation. It contains living spaces, resources for the animals and humans
 
 Resources: Heat, Energy, Oxigen, Light, Food, Water

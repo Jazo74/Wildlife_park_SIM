@@ -1,14 +1,22 @@
 using System.Collections.Generic;
 
-namespace codecool.miskolc.zoltan.jarmy_wildlife.core
+namespace codecool.miskolc.zoltan_jarmy.sanctuary.core
 {
     List<HeatGenerator> HeatGenerators { get; set; }
     List<EnergyGenerator> EnergyGenerators { get; set; }
-    List<FoodGenerator> FoodGenerators { get; set; }
     List<OxigenGenerator> OxigenGenerators { get; set; }
-    List<WaterGenerator> FoodGenerators { get; set; }
+    List<FoodGenerator> FoodGenerators { get; set; }
+    List<WaterGenerator> WaterGenerators { get; set; }
 
-    void 
+    int HeatReserve { get; set; }
+    int EnergyReserve { get; set; }
+    int OxigenReserve { get; set; }
+    int FoodReserve { get; set; }
+    int WaterReserve { get; set; }
+
+
+
+
     
     
 }

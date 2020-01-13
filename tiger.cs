@@ -1,4 +1,4 @@
-namespace codecool.miskolc.zoltan.jarmy_wildlife_park.core
+namespace codecool.miskolc.zoltan_jarmy.sanctuary.core
 {
     class Tiger : Animal
     {

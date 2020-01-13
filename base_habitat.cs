@@ -1,14 +1,19 @@
-namespace codecool.miskolc.zoltan_jarmy.wildlife.core
+namespace codecool.miskolc.zoltan_jarmy.sanctuary.core
 {
-    class Habitat
+    abstract class Habitat
     {
+        // Base Properties
         String EnvironmentType { get; set; }
         int Size { get; private set; }
         int ReqHeat { get;}
         int ReqOxigen { get;}
         int ReqWater { get;}
-        int ReqEnergy { get;}
         int ReqFood { get;}
+        // Calculated Properties  
+        int ReqEnergy = ReqHeat + ReqOxigen;
+        // Methods
+        void StartHabitat;
+        void HibernateHabitat;
 
     }
     
